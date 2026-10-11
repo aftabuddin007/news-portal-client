@@ -24,6 +24,7 @@ navigate(from,{replace:true})
 }
     return (
        <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+       <h3 className="text-3xl font-bold">Login Page</h3>
       <form onSubmit={handleSubmit(handleLogin)} className="card-body">
         <fieldset className="fieldset">
           <label className="label">Email</label>

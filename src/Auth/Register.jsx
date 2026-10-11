@@ -24,6 +24,8 @@ registerUser(data.email,data.password)
 
     return (
           <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                   <h3 className="text-3xl font-bold">Signup Page</h3>
+
       <form onSubmit={handleSubmit(handleRegistration)} className="card-body">
         <fieldset className="fieldset">
           <label className="label">Name</label>
