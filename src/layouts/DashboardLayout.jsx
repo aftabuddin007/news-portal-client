@@ -137,7 +137,7 @@ const DashboardLayout = () => {
     {/* Dropdown items */}
     <ul>
       <li>
-        <a href="/sub1">Inbox </a>
+        <Link to="/career/inbox">Inbox </Link>
       </li>
 
      
