@@ -7,6 +7,9 @@ import PrivateRoute from "./PrivateRoute";
 import AddMedia from "../components/MediaLibrary/AddMedia";
 import AllNews from "../components/AllNews";
 import Inbox from "../components/career/Inbox";
+import AddStory from "../components/NewsStory/AddStory";
+import AllStory from "../components/NewsStory/AllStory";
+import StorySet from "../components/NewsStory/StorySet";
 
 export const router = createBrowserRouter([
   {
@@ -24,9 +27,22 @@ export const router = createBrowserRouter([
         path:"/all-media",
         element:<AllNews></AllNews>
       },
+     
       {
         path:"/career/inbox",
         element:<Inbox></Inbox>
+      }, 
+      {
+        path:"/add-story",
+        element:<AddStory></AddStory>
+      },
+      {
+        path:"/all-story",
+        element:<AllStory></AllStory>
+      },
+      {
+        path:"/storySet",
+        element:<StorySet></StorySet>
       },
 
     ]

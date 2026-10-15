@@ -157,13 +157,13 @@ const DashboardLayout = () => {
     {/* Dropdown items */}
     <ul>
       <li>
-        <a href="/sub1">Add Story </a>
+        <Link to="/add-story">Add Story </Link>
       </li>
       <li>
-        <a href="/sub1">All Story </a>
+        <Link to="/all-story">All Story </Link>
       </li>
       <li>
-        <a href="/sub1">Story Setting </a>
+        <Link to="/storySet">Story Setting </Link>
       </li>
 
      
