@@ -10,6 +10,7 @@ import Inbox from "../components/career/Inbox";
 import AddStory from "../components/NewsStory/AddStory";
 import AllStory from "../components/NewsStory/AllStory";
 import StorySet from "../components/NewsStory/StorySet";
+import UpdateStory from "../components/NewsStory/UpdateStory";
 
 export const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ export const router = createBrowserRouter([
       {
         path:"/storySet",
         element:<StorySet></StorySet>
+      },
+      {
+        path:"/update-story/:id",
+        element:<UpdateStory></UpdateStory>
       },
 
     ]
