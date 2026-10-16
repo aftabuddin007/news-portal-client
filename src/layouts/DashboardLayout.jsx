@@ -183,10 +183,10 @@ const DashboardLayout = () => {
     {/* Dropdown items */}
     <ul>
       <li>
-        <a href="/sub1">Add Gallery </a>
+        <Link to="/add-photo">Add Gallery </Link>
       </li>
       <li>
-        <a href="/sub1">All Gallery </a>
+        <Link to="/all-photo">All Gallery </Link>
       </li>
 
      

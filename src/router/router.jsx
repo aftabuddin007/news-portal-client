@@ -11,6 +11,9 @@ import AddStory from "../components/NewsStory/AddStory";
 import AllStory from "../components/NewsStory/AllStory";
 import StorySet from "../components/NewsStory/StorySet";
 import UpdateStory from "../components/NewsStory/UpdateStory";
+import AddPhoto from "../components/PhotoGallery/AddPhoto";
+import AllPhoto from "../components/PhotoGallery/AllPhoto";
+import UpdatePhoto from "../components/PhotoGallery/UpdatePhoto";
 
 export const router = createBrowserRouter([
   {
@@ -48,6 +51,18 @@ export const router = createBrowserRouter([
       {
         path:"/update-story/:id",
         element:<UpdateStory></UpdateStory>
+      },
+       {
+        path:"/add-photo",
+        element:<AddPhoto></AddPhoto>
+      },
+       {
+        path:"/all-photo",
+        element:<AllPhoto></AllPhoto>
+      },
+       {
+        path:"/update-photo/:id",
+        element:<UpdatePhoto></UpdatePhoto>
       },
 
     ]
