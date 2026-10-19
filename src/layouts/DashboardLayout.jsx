@@ -206,7 +206,7 @@ const DashboardLayout = () => {
     {/* Dropdown items */}
     <ul>
       <li>
-        <a href="/sub1">My Newspaper </a>
+        <Link to="/my-news-paper">My Newspaper </Link>
       </li>
      
 
