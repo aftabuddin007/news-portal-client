@@ -215,18 +215,27 @@ const DashboardLayout = () => {
   </details>
 </li>
   <li>
-  
-    <summary className="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Video Gallery">
+  <details>
+    <summary className="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Career">
       {/* Settings icon */}
-      <MdOutlineVideoLibrary />
+     <MdOutlineVideoLibrary />
 
 
       <span className="is-drawer-close:hidden">Video Gallery</span>
     </summary>
 
     {/* Dropdown items */}
-    
-  
+    <ul>
+      <li>
+        <a href="/sub1">Add Video </a>
+      </li>
+      <li>
+        <a href="/sub1">All Video </a>
+      </li>
+
+     
+    </ul>
+  </details>
 </li>
   <li>
   <details>
